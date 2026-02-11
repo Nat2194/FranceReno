@@ -1,0 +1,57 @@
+/* 1. Imports des ressources externes */
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@600&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+/* 2. Définition des classes personnalisées 
+   On utilise les variables CSS natives de Tailwind v4 au lieu de @apply.
+   Cela évite les erreurs "Unknown at rule" et rend le code plus robuste.
+*/
+
+.logo {
+	/* Utilisation de la variable définie dans @theme ou fallback */
+	font-family: 'Sora', sans-serif;
+
+	/* Équivalent de @apply text-4xl font-semibold relative pr-10 */
+	font-size: var(--text-4xl);
+	line-height: var(--tw-leading, 1);
+	font-weight: var(--font-weight-semibold);
+	position: relative;
+	padding-right: var(--spacing-10);
+}
+
+.slider-title {
+	/* Typographie & Couleurs */
+	font-family: 'Evogria', sans-serif;
+	color: var(--color-white);
+	font-weight: var(--font-weight-bold);
+
+	/* Tailles responsives (Équivalent de ton @apply complexe) */
+	font-size: var(--text-3xl); /* Base mobile */
+
+	@media (min-width: 640px) {
+		font-size: var(--text-5xl);
+	} /* sm */
+	@media (min-width: 768px) {
+		font-size: var(--text-6xl);
+	} /* md/lg */
+	@media (min-width: 1280px) {
+		font-size: var(--text-7xl);
+	} /* xl */
+
+	/* Effets visuels spécifiques */
+	text-shadow: -15px 5px 20px #5a5a5a;
+	letter-spacing: -0.05em;
+	user-select: none;
+	transition: all 0.25s ease-out;
+
+	/* État au survol */
+	&:hover {
+		text-shadow: -16px 6px 15px #5a5a5a;
+	}
+}
+
+.font-awesome {
+	/* Utilisation de la police Font Awesome importée plus haut */
+	font-family: 'Font Awesome 5 Free';
+	font-weight: 900; /* Requis pour la plupart des icônes Solid */
+}

@@ -1,0 +1,197 @@
+@import 'tailwindcss';
+
+$dark-blue-efrei: #232c53;
+$very-light-grey: #fafafa;
+$light-blue: #c6ccee;
+$medium-blue: #556297;
+$dark-blue: #377fbc;
+$bright-blue: #007bff;
+
+.bg-dark-blue-efrei {
+	background-color: $dark-blue-efrei;
+}
+
+.dark-blue-efrei {
+	color: $dark-blue-efrei;
+}
+
+.bg-dark-blue {
+	background-color: $dark-blue;
+}
+
+.bg-bright-blue {
+	background-color: $bright-blue;
+}
+
+.bg-medium-blue {
+	background-color: $medium-blue;
+}
+
+.bg-light-blue {
+	background-color: $light-blue;
+}
+
+.bg-very-light-grey {
+	background-color: $very-light-grey;
+}
+
+.menu-icon:focus {
+	background-color: $medium-blue;
+}
+
+.dropdown-menu {
+	background-color: $dark-blue-efrei;
+}
+.dropdown-menu:hover {
+	background-color: $medium-blue;
+}
+
+.bg-very-light-grey {
+	background-color: $very-light-grey;
+}
+
+// Couleurs des rôles utilisateurs
+
+.color-red {
+	color: red;
+}
+
+.color-orange {
+	color: orange;
+}
+
+.color-amber {
+	color: #ffbf00;
+}
+
+.color-yellow {
+	color: yellow;
+}
+
+.color-lime {
+	color: lime;
+}
+
+.color-green {
+	color: green;
+}
+
+.color-emerald {
+	color: #50c878;
+}
+
+.color-blue {
+	color: blue;
+}
+
+.color-teal {
+	color: teal;
+}
+
+.color-cyan {
+	color: cyan;
+}
+
+.color-sky {
+	color: #87ceeb;
+}
+
+.color-indigo {
+	color: indigo;
+}
+
+.color-violet {
+	color: violet;
+}
+
+.color-purple {
+	color: purple;
+}
+
+.color-fuchsia {
+	color: fuchsia;
+}
+
+.color-pink {
+	color: pink;
+}
+
+.color-rose {
+	color: #ff007f;
+}
+
+.color-grey {
+	color: grey;
+}
+
+.bg-color-red {
+	background-color: red;
+}
+
+.bg-color-orange {
+	background-color: orange;
+}
+
+.bg-color-amber {
+	background-color: #ffbf00;
+}
+
+.bg-color-yellow {
+	background-color: yellow;
+}
+
+.bg-color-lime {
+	background-color: lime;
+}
+
+.bg-color-green {
+	background-color: green;
+}
+
+.bg-color-emerald {
+	background-color: #50c878;
+}
+
+.bg-color-blue {
+	background-color: blue;
+}
+
+.bg-color-teal {
+	background-color: teal;
+}
+
+.bg-color-cyan {
+	background-color: cyan;
+}
+
+.bg-color-sky {
+	background-color: #87ceeb;
+}
+
+.bg-color-indigo {
+	background-color: indigo;
+}
+
+.bg-color-violet {
+	background-color: violet;
+}
+
+.bg-color-purple {
+	background-color: purple;
+}
+
+.bg-color-fuchsia {
+	background-color: fuchsia;
+}
+
+.bg-color-pink {
+	background-color: pink;
+}
+
+.bg-color-rose {
+	background-color: #ff007f;
+}
+
+.bg-color-grey {
+	background-color: grey;
+}
