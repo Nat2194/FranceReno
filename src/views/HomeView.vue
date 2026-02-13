@@ -13,11 +13,14 @@
 			<WaveFrame>
 				<HeroSection />
 			</WaveFrame>
+			<WaveFrame>
+				<AboutSection />
+			</WaveFrame>
 			<SectionSeparator
 				invert
 				class="relative z-10 pointer-events-none"
 			/>
-			<AboutSection />
+			<ContactSection class="-mt-6.25 sm:-mt-8.75 lg:-mt-12.5" />
 		</div>
 	</LayoutBase>
 </template>
@@ -25,10 +28,11 @@
 <script setup>
 import LayoutBase from '@/components/layout/LayoutBase.vue';
 import SliderBase from '@/components/layout/SliderBase.vue';
-import HeroSection from '@/components/layout/HeroSection.vue';
+import HeroSection from '@/components/sections/HeroSection.vue';
 import SectionSeparator from '@/components/SectionSeparator.vue';
 import WaveFrame from '@/components/layout/WaveFrame.vue';
-import AboutSection from '@/components/layout/AboutSection.vue';
+import AboutSection from '@/components/sections/AboutSection.vue';
+import ContactSection from '@/components/sections/ContactSection.vue';
 
 // Import slider images for desktop
 import sliderImg1 from '@/assets/img/slider/horizontal/1.jpg';
