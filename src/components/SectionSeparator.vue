@@ -1,5 +1,17 @@
+<script setup>
+defineProps({
+	invert: {
+		type: Boolean,
+		default: false,
+	},
+});
+</script>
+
 <template>
-	<div class="w-full overflow-hidden leading-[0] transform rotate-180">
+	<div
+		class="w-full overflow-hidden leading-[0] transform transition-transform duration-300"
+		:class="{ 'rotate-180': !invert }"
+	>
 		<svg
 			data-name="Layer 1"
 			xmlns="http://www.w3.org/2000/svg"
@@ -22,3 +34,4 @@
 		</svg>
 	</div>
 </template>
+

@@ -13,6 +13,11 @@
 			<WaveFrame>
 				<HeroSection />
 			</WaveFrame>
+			<SectionSeparator
+				invert
+				class="relative z-10 pointer-events-none"
+			/>
+			<AboutSection />
 		</div>
 	</LayoutBase>
 </template>
@@ -20,9 +25,10 @@
 <script setup>
 import LayoutBase from '@/components/layout/LayoutBase.vue';
 import SliderBase from '@/components/layout/SliderBase.vue';
-import HeroSection from '../components/layout/HeroSection.vue';
+import HeroSection from '@/components/layout/HeroSection.vue';
 import SectionSeparator from '@/components/SectionSeparator.vue';
 import WaveFrame from '@/components/layout/WaveFrame.vue';
+import AboutSection from '@/components/layout/AboutSection.vue';
 
 // Import slider images for desktop
 import sliderImg1 from '@/assets/img/slider/horizontal/1.jpg';
