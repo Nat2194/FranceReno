@@ -1,12 +1,18 @@
 <template>
 	<LayoutBase>
-		<div class="flex flex-col gap-4">
+		<div class="flex flex-col">
 			<!-- Render different images based on screen size -->
 			<SliderBase
 				:img-list="
 					isMobileScreen ? mobileSliderImages : desktopSliderImages
 				"
 			/>
+			<SectionSeparator
+				class="relative z-10 -mt-12 sm:-mt-24 lg:-mt-36 pointer-events-none"
+			/>
+			<WaveFrame>
+				<HeroSection />
+			</WaveFrame>
 		</div>
 	</LayoutBase>
 </template>
@@ -14,6 +20,9 @@
 <script setup>
 import LayoutBase from '@/components/layout/LayoutBase.vue';
 import SliderBase from '@/components/layout/SliderBase.vue';
+import HeroSection from '../components/layout/HeroSection.vue';
+import SectionSeparator from '@/components/SectionSeparator.vue';
+import WaveFrame from '@/components/layout/WaveFrame.vue';
 
 // Import slider images for desktop
 import sliderImg1 from '@/assets/img/slider/horizontal/1.jpg';

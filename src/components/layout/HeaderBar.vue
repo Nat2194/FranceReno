@@ -1,6 +1,6 @@
 <template>
 	<div
-		class="fixed w-full bg-white z-10 transition-all duration-300 ease-in-out"
+		class="fixed w-full bg-white z-999 transition-all duration-300 ease-in-out"
 		:class="{
 			'shadow-md': !isSticky,
 			'shadow-2xl': isSticky,

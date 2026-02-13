@@ -1,5 +1,5 @@
 <template>
-	<div class="w-full relative h-1/3">
+	<div class="w-full z-999 relative h-1/3">
 		<!-- Wave Animation -->
 		<svg
 			class="editorial"
