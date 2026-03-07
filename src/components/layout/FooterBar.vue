@@ -84,28 +84,6 @@
 
 					<div class="flex flex-row flex-wrap justify-center gap-3">
 						<a
-							href="https://www.instagram.com/francereno"
-							target="_blank"
-							class="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-[#D4AF37] hover:border-[#D4AF37] hover:shadow-[0_0_15px_rgba(212,175,55,0.4)] hover:-translate-y-1 transition-all duration-300 group"
-						>
-							<img
-								src="@/assets/img/logos/instagram.svg"
-								alt="Instagram"
-								class="h-4 w-4 opacity-70 group-hover:opacity-100 group-hover:brightness-0 group-hover:invert transition-all duration-300"
-							/>
-						</a>
-						<a
-							href="https://discord.gg/nAjQkcNG6V"
-							target="_blank"
-							class="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-[#D4AF37] hover:border-[#D4AF37] hover:shadow-[0_0_15px_rgba(212,175,55,0.4)] hover:-translate-y-1 transition-all duration-300 group"
-						>
-							<img
-								src="@/assets/img/logos/discord.svg"
-								alt="Discord"
-								class="h-4 w-4 opacity-70 group-hover:opacity-100 group-hover:brightness-0 group-hover:invert transition-all duration-300"
-							/>
-						</a>
-						<a
 							href="https://www.linkedin.com/company/francereno"
 							target="_blank"
 							class="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-[#D4AF37] hover:border-[#D4AF37] hover:shadow-[0_0_15px_rgba(212,175,55,0.4)] hover:-translate-y-1 transition-all duration-300 group"
@@ -116,17 +94,7 @@
 								class="h-4 w-4 opacity-70 group-hover:opacity-100 group-hover:brightness-0 group-hover:invert transition-all duration-300"
 							/>
 						</a>
-						<a
-							href="https://www.tiktok.com/@francereno"
-							target="_blank"
-							class="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-[#D4AF37] hover:border-[#D4AF37] hover:shadow-[0_0_15px_rgba(212,175,55,0.4)] hover:-translate-y-1 transition-all duration-300 group"
-						>
-							<img
-								src="@/assets/img/logos/tiktok.svg"
-								alt="TikTok"
-								class="h-4 w-4 opacity-70 group-hover:opacity-100 group-hover:brightness-0 group-hover:invert transition-all duration-300"
-							/>
-						</a>
+
 						<a
 							href="mailto:contact@france-reno-exemple.fr"
 							class="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-[#D4AF37] hover:border-[#D4AF37] hover:shadow-[0_0_15px_rgba(212,175,55,0.4)] hover:-translate-y-1 transition-all duration-300 group"

@@ -16,6 +16,9 @@
 			<WaveFrame>
 				<AboutSection />
 			</WaveFrame>
+			<WaveFrame>
+				<ClientSection />
+			</WaveFrame>
 			<SectionSeparator
 				invert
 				class="relative z-10 pointer-events-none"
@@ -33,6 +36,7 @@ import SectionSeparator from '@/components/SectionSeparator.vue';
 import WaveFrame from '@/components/layout/WaveFrame.vue';
 import AboutSection from '@/components/sections/AboutSection.vue';
 import ContactSection from '@/components/sections/ContactSection.vue';
+import ClientSection from '../components/sections/ClientSection.vue';
 
 // Import slider images for desktop
 import sliderImg1 from '@/assets/img/slider/horizontal/1.jpg';
