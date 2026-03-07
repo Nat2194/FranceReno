@@ -8,10 +8,7 @@
 			'h-18': isSticky,
 		}"
 	>
-		<!-- Mobile Menu Bar -->
-		<div
-			class="xl:hidden px-4 py-2 bg-dark-blue-efrei flex flex-row justify-between"
-		>
+		<div class="xl:hidden px-4 py-2 bg-white flex flex-row justify-between">
 			<router-link to="/">
 				<img
 					src="@/assets/img/logos/efreibasketlogo.svg"
@@ -20,13 +17,8 @@
 			</router-link>
 			<DropDownHeader />
 		</div>
-		<!-- TODO: broken link between mobile header and planning API -->
-
-		<!-- TODO: page Classements -->
-
-		<!-- Desktop Navigation -->
 		<div
-			class="hidden xl:flex xl:flex-row justify-between pl-32 pr-8 bg-dark-blue-efrei transition-all duration-300 ease-in-out"
+			class="hidden xl:flex xl:flex-row justify-between pl-32 pr-8 bg-white transition-all duration-300 ease-in-out shadow-[0_5px_20px_rgba(0,0,0,0.05)] border-b border-[rgb(223,223,223)]"
 			:class="{ 'p-2': !isSticky }"
 		>
 			<router-link
