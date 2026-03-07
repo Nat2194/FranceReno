@@ -4,7 +4,7 @@
 		<div class="flex-grow w-full mt-24 bg-very-light-grey">
 			<slot />
 		</div>
-		<FooterBar />
+		<FooterBar class="relative z-20 pointer-events-none" />
 	</div>
 </template>
 

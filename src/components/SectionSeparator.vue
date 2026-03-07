@@ -34,4 +34,3 @@ defineProps({
 		</svg>
 	</div>
 </template>
-

@@ -76,4 +76,3 @@ const desktopSliderImages = [
 // Check if the screen width is less than or equal to the mobile breakpoint (e.g., 640px).
 const isMobileScreen = window.innerWidth <= 640; // Adjust the breakpoint as needed
 </script>
-

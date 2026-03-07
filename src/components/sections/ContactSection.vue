@@ -177,4 +177,3 @@ const contactInfo = {
 	font-family: 'Ranade', sans-serif;
 }
 </style>
-

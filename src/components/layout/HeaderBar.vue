@@ -11,7 +11,7 @@
 		<div class="xl:hidden px-4 py-2 bg-white flex flex-row justify-between">
 			<router-link to="/">
 				<img
-					src="@/assets/img/logos/efreibasketlogo.svg"
+					src="@/assets/img/logos/logo.png"
 					class="object-contain lg:h-30 md:h-20 h-10"
 				/>
 			</router-link>
@@ -26,7 +26,7 @@
 				class="flex items-center gap-2 py-2 !text-black logo"
 			>
 				<img
-					src="@/assets/img/logos/efreibasketlogo.svg"
+					src="@/assets/img/logos/logo.png"
 					class="object-contain h-20"
 				/>
 			</router-link>
